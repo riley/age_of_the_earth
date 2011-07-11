@@ -1,0 +1,6 @@
+insert into epochs set 
+	name = "neogene", 
+	url = "http://en.wikipedia.org/wiki/Neogene", 
+	mya = "23", 
+	duration = "20.4", 
+	description = '<p class="neogene">The Neogene covers roughly 23 million years. During the Neogene mammals and birds evolved considerably. Most other forms were relatively unchanged. Some continental motion took place, the most significant event being the connection of North and South America in the late Pliocene. Climates cooled somewhat over the duration of the Neogene culminating in continental glaciations in the Quaternary Period that follows, and that saw the dawn of the genus Homo.</p>';
