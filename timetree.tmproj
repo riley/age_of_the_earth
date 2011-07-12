@@ -3,26 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>get_wiki.php</string>
+	<string>select.txt</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>ages.js</string>
 			<key>lastUsed</key>
-			<date>2011-07-09T00:42:39Z</date>
+			<date>2011-07-11T04:58:59Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ages_dyna.html</string>
 			<key>lastUsed</key>
-			<date>2011-07-10T02:52:47Z</date>
+			<date>2011-07-11T05:23:35Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>get_wiki.php</string>
 			<key>lastUsed</key>
-			<date>2011-07-10T02:52:47Z</date>
+			<date>2011-07-11T05:26:23Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>select.txt</string>
+			<key>lastUsed</key>
+			<date>2011-07-11T05:32:04Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -30,7 +36,7 @@
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2011-07-10T02:52:47Z</date>
+			<date>2011-07-11T05:32:04Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -56,9 +62,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>236</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -70,9 +76,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>12</integer>
+				<integer>11</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -84,26 +90,57 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>52</integer>
+				<integer>57</integer>
 				<key>line</key>
-				<integer>31</integer>
+				<integer>33</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>select.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>16</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>1567</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>ages.js</string>
 		<string>index.html</string>
+		<string>select.txt</string>
 		<string>get_wiki.php</string>
 		<string>ages_dyna.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{82, 15}, {1278, 1115}}</string>
+	<string>{{83, 0}, {969, 1130}}</string>
 </dict>
 </plist>

@@ -98,7 +98,7 @@ var earth_ages = {
 	paleozoic: {
 		permian: {
 			"late permian": {
-				changhsingian: 2,
+				changhsingian: 3,
 				wuchiapingian: 6,
 			},
 			"middle permian": {

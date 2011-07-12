@@ -26,7 +26,7 @@
 						//$('.metadata p, .metadata ul').hide();
 						//$('.'+node.data.key).show(400);
 						$.ajax({
-							url: 'get_wiki.php?era='+node.data.key,
+							url: 'get_wiki.php?era='+node.data.title,
 							//url: "http://en.wikipedia.org/w/api.php?action=parse&page="+node.data.key+"&format=json",
 							dataType: 'json',
 							success: function(resp) {
@@ -71,7 +71,8 @@ input {
   text-align: right;
 }
 
-.metadata { width: 400px; background: #dedede; float: left; margin-left: 15px; }
+.metadata { width: 400px; background: #dedede; float: left; margin-left: 15px; font: normal .8em Helvetica, Verdana, Arial, sans-serif; line-height: 1.2em; padding: 15px; }
+.metadata p { color: #333; }
 
     </style>
 </head>

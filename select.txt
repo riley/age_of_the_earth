@@ -1,6 +1,420 @@
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="carboniferous">Fossil remains of air-breathing insects, myriapods and arachnids are known from the late Carboniferous, but so far not from the early Carboniferous. Their diversity when they do appear, however, shows that these arthropods were both well developed and numerous. Their large size can be attributed to the moistness of the environment (mostly swampy fern forests) and the fact that the oxygen concentration in the Earth\'s atmosphere in the Carboniferous was much higher than today. (The oxygen concentration in the Earth\'s atmosphere during the Carboniferous was 35% whereas the oxygen concentration in earth\'s current atmosphere is 21%.) This required less effort for respiration and allowed arthropods to grow larger with the up to 2.6 metres long millipede-like Arthropleura being the largest known land invertebrate of all time. Among the insect groups are the huge predatory Protodonata (griffinflies), among which was Meganeura, a giant dragonfly-like insect and with a wingspan of ca. 75 cm (30 in) — the largest flying insect ever to roam the planet. Further groups are the Syntonopterodea (relatives of present-day mayflies), the abundant and often large sap-sucking Palaeodictyopteroidea, the diverse herbivorous Protorthoptera, and numerous basal Dictyoptera (ancestors of cockroaches). Many insects have been obtained from the coalfields of Saarbrücken and Commentry, and from the hollow trunks of fossil trees in Nova Scotia. Some British coalfields have yielded good specimens: Archaeoptitus, from the Derbyshire coalfield, had a spread of wing extending to more than 35 cm; some specimens (Brodia) still exhibit traces of brilliant wing colors. In the Nova Scotian tree trunks land snails (Archaeozonites, Dendropupa) have been found.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="pennsylvanian">Amphibians were diverse and common, some were several meters long as adults. The collapse of the rainforest ecology in the mid Pennsylvanian (between the Moscovian and the Kasimovian) removed many amphibian species who did not survive as well in the cooler, drier conditions. Reptiles, however prospered due to specific key adaptations. One of the greatest evolutionary innovations of the Carboniferous was the amniote egg, which allowed for the further exploitation of the land by certain tetrapods. These included the earliest sauropsid reptiles (Hylonomus), and the earliest known synapsid (Archaeothyris). These small lizard-like animals quickly gave rise to many descendants. Reptiles underwent a major evolutionary radiation, in response to the drier climate that proceeded the rainforest collapse.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="gzhelian">The Gzhelian is named after the Russian village of Gzhel (Russian: Гжель), nearby Ramenskoye, not far from Moscow. The name and type locality were defined by Sergei Nikitin (1850–1909) in 1890.<br><br>The base of the Gzhelian is at the first appearance of the Fusulinida genera Daixina, Jigulites and Rugosofusulina, or at the first appearance of the conodont Streptognathodus zethus. The top of the stage (the base of the Permian system) is at the first appearance of the conodont Streptognathodus isolatus within the Streptognathus "wabaunsensis" chronocline. Six meters higher in the reference profile, the Fusulinida species Sphaeroschwagerina vulgaris aktjubensis appears.<br><br>At the moment (2008), a golden spike for the Gzhelian stage is yet lacking. A candidate is a section along the Ussolka river (a tributary of the Belaya river) at the edge of the hamlet of Krasnoussolsky, about 120 kilometres south-east of Ufa and 60 kilometres north-east of Sterlitamak (in Bashkortostan).</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="kazimovian">The Kasimovian is an geochronologic age or chronostratigraphic stage in the ICS geologic timescale. It is the third stage in the Pennsylvanian (late Carboniferous), lasting from 306.5 ± 1.0 to 303.9 ± 0.9 Ma. The Kasimovian stage follows the Moscovian and is followed by the Gzhelian.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="moscovian">The base of the Moscovian is close to the first appearances of the conodonts Declinognathodus donetzianus and Idiognathoides postsulcatus or otherwise the fusulinid Aljutovella aljutovica. Because the fusulinid species are regionally different, they can not be used for worldwide correlation. A golden spike for the Moscovian stage has yet to be defined (2008). A proposal is to use the first appearance of the conodont Diplognathodus ellesmerensis, but since the species is rare and its evolution relatively unknown, it has not been accepted yet.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="bashkirian">The Bashkirian is in the ICS geologic timescale the lowest stage or oldest age of the Pennsylvanian, the youngest subsystem of the Carboniferous. The Bashkirian age lasted from 318.1 ± 1.3 to 311.7 ± 1.1 Ma, is preceded by the Serpukhovian and is followed by the Moscovian.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="mississippian">The Mississippian is a subperiod in the geologic timescale or a subsystem of the geologic record. It is the earliest/lowermost of two subperiods of the Carboniferous period lasting from roughly 359 to 318 Ma (million years ago). As with most other geochronologic units, the rock beds that define the Mississippian are well identified, but the exact start and end dates are uncertain by a few million years. The Mississippian is so named because rocks with this age are exposed in the Mississippi River valley.<br><br>In North America, where the interval consists primarily of marine limestones, it was in the past treated as a full-fledged geologic period between the Devonian and the Pennsylvanian. In Europe, the Mississippian and Pennsylvanian are one more-or-less continuous sequence of lowland continental deposits and are grouped together as the Carboniferous system, and sometimes called the Upper Carboniferous and Lower Carboniferous instead. During the Mississippian subperiod an important phase of orogeny occurred in the Appalachian Mountains.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="serpukhovian">The Serpukhovian is in the ICS geologic timescale the uppermost stage or youngest age of the Mississippian, the lower subsystem of the Carboniferous. The Serpukhovian age lasted from 328.3 (± 1.6) Ma tot 318.1 (± 1.3) Ma. It is preceded by the Visean and is followed by the Bashkirian.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="viséan">The Visean, Viséan or Visian is an age in the ICS geologic timescale or a stage in the stratigraphic column. It is the second stage of the Mississippian, the lower subsystem of the Carboniferous. The Visean lasted from 345.3 ± 2.1 to 328.3 ± 1.6 Ma. It follows the Tournaisian age/stage and is followed by the Serpukhovian age/stage.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="tournaisian">The Tournaisian was named after the Belgian city of Tournai. It was introduced in scientific literature by Belgian geologist André Hubert Dumont in 1832. Like many Devonian and lower Carboniferous stages, the Tournaisian is a unit from West European regional stratigraphy that is now used in the official international time scale.<br><br>The Tournaisian correlates with the regional North American Kinderhookian and lower Osagean stages and the Chinese Tangbagouan regional stage. In British stratigraphy, the Tournaisian contains three substages: the Hastarian, Ivorian and lower part of the Chadian (the upper part falls in the Viséan).</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="devonian">The Devonian is a geologic period and system of the Paleozoic Era spanning from 416 to 359.2 million years ago (ICS, 2004, chart). It is named after Devon, England, where rocks from this period were first studied.<br><br>During the Devonian Period the pectoral and pelvic fins of lobe-finned fish evolved into legs as they started to walk on land as tetrapods around 397 Ma. Various terrestrial arthropods also became well-established.<br><br>The first seed-bearing plants spread across dry land, forming huge forests. In the oceans, primitive sharks became more numerous than in the Silurian and the late Ordovician, and the first ray finned and lobe-finned bony fish evolved. The first ammonite mollusks appeared, and trilobites, the mollusc-like brachiopods, as well as great coral reefs were still common. The Late Devonian extinction severely affected marine life.<br><br>The paleogeography was dominated by the supercontinent of Gondwana to the south, the continent of Siberia to the north, and the early formation of the small supercontinent of Euramerica in between.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="late_devonian">The Late Devonian starts with the Frasnian, 385.3 ± 2.8 to 374.5 ± 2.5, during which the first forests were taking shape on land. The first tetrapods appear in the fossil record in the ensuing Famennian subdivision, the beginning and end of which are marked with extinction events. This lasted until the end of the Devonian, 359.2± 2.5 million years ago.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="famennian">The Famennian is one of two faunal stages in the Late Devonian epoch. It lasted from 374.5 ± 2.6 million years ago to 359.2 ± 2.5 million years ago. It was preceded by the Frasnian stage and followed by the Tournaisian stage and is named after Famenne, a natural region in southern Belgium.<br><br>It was during this age that tetrapods first appeared. In the seas, a novel major group of ammonoid cephalopods called clymeniids appeared, underwent tremendous diversification and spread worldwide, then just as suddenly went extinct.<br><br>The beginning of the Famennian is marked by a major extinction event, and the end with a smaller but still quite severe extinction event.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="frasnian">The Frasnian is one of two faunal stages in the Late Devonian epoch. It lasted from 385.3 ± 2.6 million years ago to 374.5 ± 2.6 million years ago. It was preceded by the Givetian stage and followed by the Famennian stage. It is named after the village of Frasnes-lez-Couvin in Belgium.<br><br>Major reef-building was under way during the Frasnian stage, particularly in western Canada and Australia. On land, the first forests were taking shape. In North America, the Antler and Taconic orogenies peaked, which were contemporary with the Bretonic phase of the Variscan orogeny in Europe.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="middle_devonian">The Middle Devonian comprises two subdivisions, the Eifelian giving way to the Givetian 391.8± 2.7 million years ago. During this time the armoured jawless ostracoderm fish were declining in diversity; the jawed fish were thriving and increasing in diversity in both the oceans and freshwater. The shallow, warm, oxygen-depleted waters of Devonian inland lakes, surrounded by primitive plants, provided the environment necessary for certain early fish to develop essential characteristics such as well developed lungs, and the ability to crawl out of the water and onto the land for short periods of time.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="givetians">Widespread shrubs and trees.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="eifelian">Due to oxygen-depleted ponds and lakes, fish started crawling out of the water and developing lungs.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="early_devonian">The Early Devonian lasts from 416 ± 2.8 to 397.5 ± 2.5 and begins with the Lochkovian stage, which lasts until the Pragian. This spans from 411.2 ± 2.8 to 407 ± 2.5, and is followed by the Emsian, which lasts until the Middle Devonian begins, 397.5± 2.7 million years ago.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="emsian">Presumably lots of shrubbery, and Knights who say, "Ni".</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="pragian">Primitive plants and stuff.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="lochkovian">The time of Rhynie chert(!). The Rhynie chert is an Early Devonian sedimentary deposit exhibiting extraordinary fossil detail or completeness (a Lagerstätte). It is exposed near the village of Rhynie, Aberdeenshire, Scotland; a second unit, the Windyfield chert, is located some 700 m away. The Rhynie chert contains exceptionally preserved plant, fungus, lichen and animal material preserved in place by an overlying volcanic deposit. The bulk of the fossil bed consists of primitive plants (which had water-conducting cells and sporangia, but no true leaves), along with arthropods, lichens, algae and fungi.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="silurian">The first bony fish, the Osteichthyes, appeared, represented by the Acanthodians covered with bony scales; fish reached considerable diversity and developed movable jaws, adapted from the supports of the front two or three gill arches. A diverse fauna of Eurypterids (Sea Scorpions) -- some of them several meters in length—prowled the shallow Silurian seas of North America; many of their fossils have been found in New York State. Leeches also made their appearance during the Silurian Period. Brachiopods, bryozoa, molluscs, hederelloids and trilobites were abundant and diverse.<br><br>Reef abundance was patchy; sometimes they were everywhere, but at other points they are virtually absent from the rock record.<br><br>The Silurian was the first period to see macrofossils of extensive terrestrial biota, in the form of moss forests along lakes and streams. However, the land fauna did not have a major impact on the Earth until it diversified in the Devonian.<br><br>The first fossil records of vascular plants, that is, land plants with tissues that carry food, appeared in the second half of the Silurian period. The earliest known representatives of this group are the Cooksonia (mostly from the northern hemisphere) and Baragwanathia (from Australia). A primitive Silurian land plant with xylem and phloem but no differentiation in root, stem or leaf, was much-branched Psilophyton, reproducing by spores and breathing through stomata on every surface, and probably photosynthesizing in every tissue exposed to light. Rhyniophyta and primitive lycopods were other land plants that first appear during this period. Neither mosses nor the earliest vascular plants had deep roots. Silurian rocks often have a brownish tint, possibly a result of extensive erosion of the early soils.<br><br>Some evidence suggests the presence of predatory trigonotarbid arachnoids and myriapods in Late Silurian facies. Predatory invertebrates would indicate that simple food webs were in place that included non-predatory prey animals. Extrapolating back from Early Devonian biota, Andrew Jeram et al. in 1990 suggested a food web based on as yet undiscovered detritivores and grazers on microorganisms.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="pridoli">The Pridoli, lasting from 418.7 ± 1.5 to 416 ± 2.8, is the final and shortest epoch of the Silurian. It is named after one locality at natural reserve Homolka a Přídolí near the Prague suburb Slivenec in the Czech Republic. Přídolí is the old name of a cadastral field area.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="ludlow">The Ludlow, lasting from 422.9 ± 1.5 to 418.7 ± 2.8, comprises the Gorstian stage, lasting until 421.3 million years ago, and the Ludfordian stage. It is named for the town of Ludlow in Shropshire, England.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="wenlock">The Wenlock, which lasted from 428.2 ± 1.5 to 422.9 ± 2.8, is subdivided into the Sheinwoodian (to 426.2 million years ago) and Homerian ages. It is named after the Wenlock Edge in Shropshire, England. During the Wenlock, the oldest known tracheophytes of the genus Cooksonia, appear. The complexity of slightly younger Gondwana plants like Baragwanathia indicates either a much longer history for vascular plants, perhaps extending into the early Silurian or even Ordovician. See Evolutionary history of plants.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="llandovery">The Llandovery epoch lasted from 443.7 ± 1.5 to 428.2 ± 2.8, and is subdivided into three stages: the Rhuddanian,[8] lasting until 439 million years ago, the Aeronian, lasting to 436 million years ago, and the Telychian. The epoch is named for the town of Llandovery in Carmarthenshire, Wales.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="ordovician">On the whole, the fauna that emerged in the Ordovician set the template for the remainder of the Palaeozoic. The fauna was dominated by tiered communities of suspension feeders, mainly with short food chains; this said, the ecological system reached a new grade of complexity far beyond that of the Cambrian fauna, which has persisted until the present day.<br><br>Though less famous than the Cambrian explosion, the Ordovician featured an adaptive radiation, the Ordovician radiation, that was no less remarkable; marine faunal genera increased fourfold, resulting in 12% of all known Phanerozoic marine fauna. Another change in the fauna was the strong increase in filter feeding organisms. The trilobite, inarticulate brachiopod, archaeocyathid, and eocrinoid faunas of the Cambrian were succeeded by those that dominated the rest of the Paleozoic, such as articulate brachiopods, cephalopods, and crinoids. Articulate brachiopods, in particular, largely replaced trilobites in shelf communities. Their success epitomizes the greatly increased diversity of carbonate shell-secreting organisms in the Ordovician compared to the Cambrian.<br><br>In North America and Europe, the Ordovician was a time of shallow continental seas rich in life. Trilobites and brachiopods in particular were rich and diverse. Although solitary corals date back to at least the Cambrian, reef-forming corals appeared in the early Ordovician, corresponding to an increase in the stability of carbonate and thus a new abundance of calcifying animals.</p>';
 insert into epochs set 
-	name = "neogene", 
-	url = "http://en.wikipedia.org/wiki/Neogene", 
-	mya = "23", 
-	duration = "20.4", 
-	description = '<p class="neogene">The Neogene covers roughly 23 million years. During the Neogene mammals and birds evolved considerably. Most other forms were relatively unchanged. Some continental motion took place, the most significant event being the connection of North and South America in the late Pliocene. Climates cooled somewhat over the duration of the Neogene culminating in continental glaciations in the Quaternary Period that follows, and that saw the dawn of the genus Homo.</p>';
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="hirnantian">The Hirnantian is the seventh and final internationally-recognized stage of the Ordovician Period of the Paleozoic Era. It was of short duration, lasting about 1.9 million years, from 445.6 ± 1.5 to 443.7 ± 1.5 Ma (million years ago). The early part of the Hirnantian was characterized by cold temperatures, major glaciation, and a severe drop in sea level. In the latter part of the Hirnantian, temperatures rose, the glaciers melted, and sea level returned to the same or to a slightly higher level than it had been prior to the glaciation.';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = 'Most scientists believe that this climatic oscillation caused the major extinction event that took place during this time. In fact, the Hirnantian (also known as the End Ordovician and the Ordovician-Silurian) mass extinction event represents the second largest such event in geologic history. Approximately 85 % of marine (sea-dwelling) species died. Only the End Permian mass extinction event was larger. Unlike many smaller extinction events, however, the long-term consequences of the End Ordovician event were relatively small. Following the climatic oscillation, the climate returned to its previous state, and the species that survived soon (within two or three million years) evolved into species very similar to the ones that existed before.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="katian">Sea levels were high during the Ordovician; in fact during the Tremadocian, marine transgressions worldwide were the greatest for which evidence is preserved in the rocks.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="sandbian">During the Ordovician, the southern continents were collected into a single continent called Gondwana. Gondwana started the period in equatorial latitudes and, as the period progressed, drifted toward the South Pole. Early in the Ordovician, the continents Laurentia (present-day North America), Siberia, and Baltica (present-day northern Europe) were still independent continents (since the break-up of the supercontinent Pannotia earlier), but Baltica began to move towards Laurentia later in the period, causing the Iapetus Ocean to shrink between them. The small continent Avalonia separated from Gondwana and began to head north towards Baltica and Laurentia. The Rheic Ocean between Gondwana and Avalonia was formed as a result.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="darriwilian">A major mountain-building episode was the Taconic orogeny that was well under way in Cambrian times. In the beginning of the Late Ordovician, from 460 to 450 Ma, volcanoes along the margin of the Iapetus Ocean spewed massive amounts of carbon dioxide into the atmosphere, turning the planet into a hothouse. These volcanic island arcs eventually collided with proto North America to form the Appalachian mountains. By the end of the Late Ordovician these volcanic emissions had stopped. Gondwana had by that time neared or approached the pole and was largely glaciated.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="dapingian">The Ordovician saw the highest sea levels of the Palaeozoic, and the low relief of the continents led to many shelf deposits being formed under hundreds of metres of water. Sea level rose more or less continuously throughout the Early Ordovician, levelling off somewhat during the middle of the period.[10] Locally, some regressions occurred, but sea level rise continued in the beginning of the Late Ordovician. A change was soon on the cards, however, and sea levels fell steadily in accord with the cooling temperatures for the ~30 million years leading up to the Hirnantian glaciation. Within this icy stage, sea level seems to have risen and dropped somewhat, but despite much study the details remain unresolved.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="floian">For most of the Late Ordovician, life continued to flourish, but at and near the end of the period there were mass-extinction events that seriously affected planktonic forms like conodonts, graptolites, and some groups of trilobites (Agnostida and Ptychopariida, which completely died out, and the Asaphida, which were much reduced). Brachiopods, bryozoans and echinoderms were also heavily affected, and the endocerid cephalopods died out completely, except for possible rare Silurian forms. The Ordovician–Silurian Extinction Events may have been caused by an ice age that occurred at the end of the Ordovician period as the end of the Late Ordovician was one of the coldest times in the last 600 million years of earth history.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="tremadocian">n the Early Ordovician, trilobites were joined by many new types of organisms, including tabulate corals, strophomenid, rhynchonellid, and many new orthid brachiopods, bryozoans, planktonic graptolites and conodonts, and many types of molluscs and echinoderms, including the ophiuroids ("brittle stars") and the first sea stars. Nevertheless the trilobites remained abundant, with all the Late Cambrian orders continuing, and being joined by the new group Phacopida. The first evidence of land plants also appeared.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="cambrian">The Cambrian Period marked a profound change in life on Earth; prior to the Cambrian era, life was on the whole small and simple. Complex organisms gradually became more common in the millions of years immediately preceding the Cambrian, but it was not until this period that mineralised – hence readily fossilised – organisms became common. This diversification of lifeforms was relatively rapid, and is termed the Cambrian explosion. This vast increase in diverse forms of life produced the first representatives of many modern phyla, representing the evolutionary stems of modern groups of species. While life prospered in the oceans, the land was barren – with nothing more than a microbial \'crud\' known as soil crust covering the land. Apart from some tentative evidence suggesting that a few animals foundered around on land, most of the continents resembled deserts spanning from horizon to horizon. Shallow seas flanked the margins of several continents created during the breakup of the supercontinent Pannotia. The seas were relatively warm, and polar ice was absent for much of the era.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="upper_cambrian">The time range for the Cambrian has classically been thought to have been from about 570 Mya to about 500 Mya. The lower boundary of the Cambrian was traditionally set at the earliest appearance of trilobites and also unusual forms known as archeocyathids (literally "ancient cup") that are thought to be the earliest sponges and also the first non-microbial reef builders.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="stage_10">A period of time so distinguished that no one wanted it to be named after them, and scientists just gave it a number.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="stage_9">Yet another exciting period of Trilobites and slime covering the land masses.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="paibian">A more precise date of 542 ± 0.3 Mya for the extinction event at the beginning of the Cambrian has recently been submitted.[18] The rationale for this precise dating is interesting in itself as an example of paleological deductive reasoning. Exactly at the Cambrian boundary there is a marked fall in the abundance of carbon-13, a "reverse spike" that paleontologists call an excursion. It is so widespread that it is the best indicator of the position of the Precambrian-Cambrian boundary in stratigraphic sequences of roughly this age. One of the places that this well-established carbon-13 excursion occurs is in Oman. Amthor (2003) describes evidence from Oman that indicates the carbon-isotope excursion relates to a mass extinction: the disappearance of distinctive fossils from the Precambrian coincides exactly with the carbon-13 anomaly. Fortunately, in the Oman sequence, so too does a volcanic ash horizon from which zircons provide a very precise age of 542 ± 0.3 Mya (calculated on the decay rate of uranium to lead). This new and precise date tallies with the less precise dates for the carbon-13 anomaly, derived from sequences in Siberia and Namibia. It is presented here as likely to become accepted as the definitive age for the start of the Phanerozoic eon, and thus the start of the Paleozoic era and the Cambrian period.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="middle_cambrian">Reconstructions of Cambrian geography contain relatively large sources of error. They suggest that a global supercontinent, Pannotia, was in the process of breaking up, with Laurentia (North America) and Siberia having separated from the main mass of the Gondwana supercontinent to form isolated landmasses. Most continental land mass was clustered in the southern hemisphere. Large, high-velocity rotational movement of Gondwana appears to have occurred in the Early Cambrian.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="guzhangian">With a lack of sea ice – the great glaciers of the Marinoan Snowball Earth were long melted – the sea level was high, which led to large areas of the continents being flooded in warm, shallow seas ideal for thriving life. The sea levels fluctuated somewhat, suggesting that there were "ice ages", associated with pulses of expansion and contraction of a south polar ice cap.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="drumian">The Cambrian marked a steep change in the diversity and composition of Earth\'s biosphere. The incumbent Ediacaran biota suffered a mass extinction at the base of the period, which corresponds to an increase in the abundance and complexity of burrowing behaviour. This behaviour had a profound and irreversible effect on the substrate which transformed the seabed ecosystems. Before Cambrian, the sea floor was covered by microbial mats. By the end of the period, burrowing animals had destroyed the mats through bioturbation, and gradually turned the seabeds into what they are today. As a consequence, many of those organisms who were dependent on the mats went extinct, while the other species adapted to the changed environment who now offered new ecological niches. Around the same time there was a seemingly rapid appearance of representatives of all the mineralized phyla. However, many of these phyla were represented only by stem-group forms; and since mineralized phyla generally have a benthic origin, they may not be a good proxy for (more abundant) non-mineralized phyla.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="lower_cambrian">There are also suggestions that some Cambrian organisms ventured onto land, producing the trace fossils Protichnites and Climactichnites.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="stage_4">Terribly exciting. Named after a number.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="stage_3">Stuff was moving so fast at this time that the period is named after a number. Probably lots of lichens on rocks and stuff.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="terreneuvian">In contrast to later periods, the Cambrian fauna was somewhat restricted; free-floating organisms were rare, with the majority living on or close to the sea floor; and mineralizing animals were rarer than in future periods, in part due to the unfavourable ocean chemistry. (Most Cambrian carbonates were formed by microbial or non-biological processes.)</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="stage_2">I think some interesting stuff probably happened during this time, but naming a span of millions of years something like "stage 2" seems like a disservice.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="fortunian">Generally it is accepted that there were no land plants at this time, although it is likely that a microbial "scum" comprising fungi, algae, and possibly lichens covered the land.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="precambrian">The Precambrian (Pre-Cambrian) is an informal name for the span of time before the current Phanerozoic Eon, and is a Supereon divided into several eons of the geologic time scale. It spans from the formation of Earth around 4600 Ma (million years) ago to the beginning of the Cambrian Period, about 542 Ma, when macroscopic hard-shelled animals first appeared in abundance. The Precambrian is so named because it precedes the Cambrian, the first period of the Phanerozoic Eon, which is named after the classical name for Wales, Cambria, where rocks from this age were first studied. The Precambrian accounts for 88% of geologic time.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="proterozoic">The Proterozoic is a geological eon representing a period before the first abundant complex life on Earth. The name Proterozoic comes from the Greek "earlier life". The Proterozoic Eon extended from 2500 Ma to 542.0 ± 1.0 Ma (million years ago), and is the most recent part of the old, informally named ‘Precambrian’ time.<br><br>The Proterozoic consists of 3 geologic eras, from oldest to youngest:</p><ul><li>Paleoproterozoic</li><li>Mesoproterozoic</li><li>Neoproterozoic</li></ul><p>The well-identified events were:</p><ul><li>The transition to an oxygenated atmosphere during the Mesoproterozoic.</li><li>Several glaciations, including the hypothesized Snowball Earth during the Cryogenian period in the late Neoproterozoic.</li><li>The Ediacaran Period (635 to 542 Ma) which is characterized by the evolution of abundant soft-bodied multicellular organisms.</li></ul>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="neoproterozoic">he Neoproterozoic Era is the unit of geologic time from 1,000 to 542.0 ± 1.0 million years ago. The terminal Era of the formal Proterozoic Eon (or the informal "Precambrian"), it is further subdivided into the Tonian, Cryogenian, and Ediacaran Periods. The most severe glaciation known in the geologic record occurred during the Cryogenian, when ice sheets reached the equator and formed a possible "Snowball Earth". The earliest fossils of multicellular life are found in the Ediacaran, including the earliest animals.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="ediacaran">The animal fossil record from this period is sparse, possibly because animals had yet to evolve hard shells, which make for easier fossilization. The Ediacaran biota include the oldest definite multicellular organisms with tissues, and the most common types resemble segmented worms, fronds, disks, or immobile bags. They bear little resemblance to modern lifeforms, and their relationship even with the later lifeforms of the Cambrian explosion is difficult to interpret. More than 100 genera have been described, and well known forms include Arkarua, Charnia, Dickinsonia, Ediacaria, Marywadea, Onega, Pteridinium, and Yorgia.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="cryogenian">The name of the geologic period refers to the very cold global climate of the Cryogenian: characteristic glacial deposits indicate that Earth suffered the most severe ice ages in its history during this period. Glaciers extended and contracted in a series of rhythmic pulses, possibly reaching as far as the equator. It is generally considered to be divisible into at least two major worldwide glaciations. The Sturtian glaciation persisted from 750 million years ago to 700 Ma, and the Marinoan glaciation which ended approximately 635 Ma. The deposits of glacial tillite also occur in places that were at low latitudes during the Cryogenian, a phenomenon which led to the hypothesis of deeply-frozen planetary oceans called "Snowball Earth".</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="tonian">The Tonian (from Greek tonas, "stretch") is the first geologic period in the Neoproterozoic Era and lasted from 1000 Mya to 850 Mya (million years ago). Instead of being based on stratigraphy, these dates are defined by the ICS based on radiometric chronometry.<br><br>Events leading to the breakup of supercontinent Rodinia started in this period.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="mesoproterozoic">The Mesoproterozoic Era is a geologic era that occurred between 1600 Ma and 1000 Ma (million years ago).<br><br>The major events of this era are the formation of the Rodinia supercontinent, the breakup of the Columbia supercontinent, and the evolution of sexual reproduction.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="stenian">The Stenian (from Greek stenos, "narrow") is the final geologic period in the Mesoproterozoic Era and lasted from 1200 Mya to 1000 Mya (million years ago). Instead of being based on stratigraphy, these dates are defined chronometrically.<br><br>Name derives from narrow polymetamorphic belts formed over this period.<br><br>The supercontinent Rodinia assembled during the Stenian.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="ectasian">The Ectasian (from Greek ectasis, "extension") is the second geologic period in the Mesoproterozoic era and lasted from 1400 Mya ago to 1200 Mya (million years ago). Instead of being based on stratigraphy, these dates are defined chronometrically.<br><br>Name derives from continued expansion of platform covers during this period.<br><br>Evidence of a eukaryotic red algae, Bangiomorpha pubescens, has been identified from ca. 1200 Mya old rocks in the Hunting Formation (Somerset Island, Canada). This is the oldest known sexually reproducing organism and therefore the earliest known complex multicellular organism.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="calymmian">The Calymmian (from Greek calymma, "cover") is the first geologic period in the Mesoproterozoic Era and lasted from 1600 Mya to 1400 Mya (million years ago). Instead of being based on stratigraphy, these dates are defined chronometrically.<br><br>The period is characterised by expansion of existing platform covers, or by new platforms on recently cratonized basements.<br><br>The supercontinent Columbia broke up during the Calymmian some 1500 Mya.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="paleoproterozoic">The Paleoproterozoic is the first of the three sub-divisions (eras) of the Proterozoic occurring between 1,600 to 2,500 million years ago. This is when the continents first stabilized. This is also when cyanobacteria evolved, a type of bacteria which uses the biochemical process of photosynthesis to produce energy and oxygen.<br><br>Before the significant increase in atmospheric oxygen almost all life that existed was anaerobic, that is, the metabolism of life depended on a form of cellular respiration that did not require oxygen. Free oxygen in large amounts is poisonous to most anaerobic bacteria, and at this time most life on Earth vanished. The only life that remained was either resistant to the oxidizing and poisonous effects of oxygen, or spent its life-cycle in an oxygen-free environment. This main event is called the oxygen catastrophe. Also the Francevillian Group and Grypania fossils and the first eukaryotes appeared during this time.<br><br>Paleontological evidence on the Earth\'s rotational history suggests that ~1.8 billion years ago, there were about 450 days in a year, implying 20 hour days.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="statherian">The Statherian (Greek: statheros, meaning "stable, firm") is the final geologic period in the Paleoproterozoic Era and lasted from 1800 Mya to 1600 Mya (million years ago). Instead of being based on stratigraphy, these dates are defined chronometrically.<br><br>During this period the first complex single-celled life appeared.<br><br>The period is characterized on most continents by either new platforms or final cratonization of fold belts.<br><br>The supercontinent Columbia formed at the beginning of this period.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="orosirian">The Orosirian (Greek: oroseira, meaning "mountain range") is the third geologic period in the Paleoproterozoic Era and lasted from 2050 Mya to 1800 Mya (million years ago). Instead of being based on stratigraphy, these dates are defined chronometrically.<br><br>The latter half of the period was an episode of intensive orogeny on virtually all continents.<br><br>Two of the largest known impact events on Earth occurred during the Orosirian. At the very beginning of the period, 2023 Mya, a large asteroid collision created the Vredefort impact structure. The event that created the Sudbury Basin structure occurred near the end of the period, 1850 Mya.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="rhyacian">The Rhyacian  Greek: rhyax, meaning "stream of lava") is the second geologic period in the Paleoproterozoic Era and lasted from 2300 Mya to 2050 Mya (million years ago). Instead of being based on stratigraphy, these dates are defined chronometrically.<br><br>The Bushveld Complex and other similar intrusions formed during this period.<br><br>The Huronian (Makganyene) global glaciation began at the start of the Rhyacian and lasted until 2200 Mya<br><br>The first known eukaryotes began to evolve in the Rhyacian period. The multicellular Francevillian Group Fossils, at 2.1-Gyr-old are from the Rhyacian period.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="siderian">The Siderian (Greek: sideros, meaning "iron") is the first geologic period in the Paleoproterozoic Era and lasted from 2500 Mya to 2300 Mya (million years ago). Instead of being based on stratigraphy, these dates are defined chronometrically.<br><br>Abundance of banded iron formations (BIFs) peaked early this period. BIFs were formed as anaerobic algae produced waste oxygen that combined with iron, forming magnetite (Fe3O4, an iron oxide). This process cleared iron from the oceans, presumably turning greenish seas clear. Eventually, without an oxygen sink in the oceans, the process created the oxygen-rich atmosphere of today. This event is known as the oxygen catastrophe, which according to some geologists triggered the Huronian glaciation. The Huronian glaciation took place in the Siderian between 2400 Mya and 2300 Mya.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="archean">The Archean atmosphere is thought to have lacked free oxygen. Astronomers think that the sun was about one-third dimmer than at present, yet temperatures appear to have been near modern levels even within 500 Ma of Earth\'s formation, which is puzzling (the faint young sun paradox). The presence of liquid water is evidenced by certain highly deformed gneisses produced by metamorphism of sedimentary protoliths. The equable temperatures may reflect the presence of larger amounts of greenhouse gases than later in the Earth\'s history. Alternatively, Earth\'s albedo may have been lower at the time, due to less land area and cloud cover.<br><br>By the end of the Archaean c. 2600 Mya, plate tectonic activity may have been similar to that of the modern Earth. There are well-preserved sedimentary basins, and evidence of volcanic arcs, intracontinental rifts, continent-continent collisions and widespread globe-spanning orogenic events suggesting the assembly and destruction of one and perhaps several supercontinents. Liquid water was prevalent, and deep oceanic basins are known to have existed by the presence of banded iron formations, chert beds, chemical sediments and pillow basalts.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="neoarchean">The Neoarchean is a geologic era within the Archaean. It spans the period of time from 2,800 to 2,500 million years ago—the period being defined chronometrically and not referenced to a specific level in a rock section on Earth. Oxygenic photosynthesis first evolved in this era and was accountable for the oxygen catastrophe which was to happen later in the paleoproterozoic from a poisonous buildup of oxygen in the atmosphere, produced by these oxygen producing photoautotrophs, which evolved earlier in the Neoarchean. The supercontinent Kenorland formed during this period, about 2.7 billion years ago.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="mesoarchean">The Mesoarchean is a geologic era within the Archean, spanning 3200 Ma to 2800 Ma (million years ago). The period is defined chronometrically and is not referenced to a specific level in a rock section on Earth. Fossils from Australia show that stromatolites have lived on Earth since the Mesoarchean. The Pongola glaciation occcured at 2.9 Ga. The first supercontinent Vaalbara broke up during this time around 2.8 Ga.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="paleoarchean">The Paleoarchean is a geologic era within the Archaean. It spans the period of time 3600 Ma to 3200 Ma (million years ago)—the period being defined chronometrically and not referenced to a specific level in a rock section on Earth. The oldest ascertained life form (Well-preserved bacteria older than 3.46 billion years found in Western Australia) is from this era.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="eoarchean">It was formerly officially unnamed and usually referred to as the first part of the Early Archean (now an obsolescent name) together with the later Paleoarchean era. It is the first part of the Archaean Eon, preceded by the "informal" Hadean eon, during which the Earth was considered to be essentially molten.<br><br>The International Commission on Stratigraphy currently does not recognize the lower boundary of the era which they\'ve provisionally placed at 4000 Ma nor that of the preceding Hadean Eon.<br><br>The Eoarchean was followed by the Paleoarchean era.<br><br>The name comes from two Greek words: eos (dawn) and archios (ancient). The first supercontinent Vaalbara appeared around the end of this period around 3600 ma.<br><br>Some interpretations of the fossil record suggest prokaryote forms may have evolved from protobionts late in this era.<br><br>The oldest rock formation on earth, the Isua greenstone belt, appeared during the Eoarchean around 3.8 billion years ago.</p>';
+	insert into epochs set 
+	name = "pliocene",
+	url = "http://en.wikipedia.org/wiki/Pliocene",
+	mya = "",
+	duration = "",
+	description = '<p class="hadean">A sizeable quantity of water would have been in the material which formed the Earth. Water molecules would have escaped Earth\'s gravity more easily when it was less massive during its formation. Hydrogen and helium are expected to continually leak from the atmosphere, but the lack of denser noble gases in the modern atmosphere suggests that something disastrous happened to the early atmosphere.<br><br>Part of the ancient planet is theorized to have been disrupted by the impact which created the Moon, which should have caused melting of one or two large areas. Present composition does not match complete melting and it is hard to completely melt and mix huge rock masses. However, a fair fraction of material should have been vaporized by this impact, creating a rock vapor atmosphere around the young planet. The rock vapor would have condensed within two thousand years, leaving behind hot volatiles which probably resulted in a heavy carbon dioxide atmosphere with hydrogen and water vapor. Liquid water oceans existed despite the surface temperature of 230C because of the atmospheric pressure of the heavy CO2 atmosphere. As cooling continued, subduction and dissolving in ocean water removed most CO2 from the atmosphere but levels oscillated wildly as new surface and mantle cycles appeared.<br><br>Study of zircons has found that liquid water must have existed as long ago as 4400 Ma, very soon after the formation of the Earth. This requires the presence of an atmosphere. The Cool Early Earth theory covers a range from about 4400 Ma to 4000 Ma.<br><br>A September 2008 study of zircons found that Australian Hadean rock holds minerals that point to the existence of plate tectonics as early as 4 billion years ago. If this holds true, the previous beliefs about the Hadean period are far from correct. That is, rather than a hot, molten surface and atmosphere full of carbon dioxide, the Earth\'s surface would be very much like it is today. The action of plate tectonics traps vast amounts of carbon dioxide, thereby eliminating the greenhouse effects and leading to a much cooler surface temperature and the formation of solid rock, and possibly even life.</p>';
