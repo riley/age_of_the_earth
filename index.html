@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
 	<title>Age of the Earth - Tree</title>
 	<link rel="stylesheet" type="text/css" href="css/skin-vista/ui.dynatree.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 
 	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.ui.js"></script>
@@ -22,17 +26,16 @@
 					},
 					onClick: function (node, event) {
 						$('input#search').val(node.data.title);
+						$('.metadata').css('display', 'block').empty().append('<h3>'+node.data.title+'</h3><p>loading!</p>');
 						update(node.data.title);
-						//$('.metadata p, .metadata ul').hide();
-						//$('.'+node.data.key).show(400);
 						$.ajax({
 							url: 'get_wiki.php?era='+node.data.title,
 							//url: "http://en.wikipedia.org/w/api.php?action=parse&page="+node.data.key+"&format=json",
 							dataType: 'json',
 							success: function(resp) {
 								console.log(resp[0]);
-								$('.metadata').empty().append(resp[0].description);
-								console.log("why can't we see the request");
+								$('.metadata').find('p').remove().end().find('h3').after(resp[0].description);
+								$('ul li:nth-child(even)').addClass('highlight');
 							},
 							error: function(err) {
 								console.log(err);
@@ -45,36 +48,6 @@
     });
 
 	</script>
-	<style type="text/css">
-
-#fig {
-  width: 1000px;
-  float: left;
-}
-
-#tree { float: left; margin-left: 15px; }
-
-#footer {
-  font: 24pt helvetica neue;
-  color: #666;
-}
-
-input {
-  font: 24pt helvetica neue;
-  background: none;
-  border: none;
-  outline: 0;
-}
-
-#title {
-  float: right;
-  text-align: right;
-}
-
-.metadata { width: 400px; background: #dedede; float: left; margin-left: 15px; font: normal .8em Helvetica, Verdana, Arial, sans-serif; line-height: 1.2em; padding: 15px; }
-.metadata p { color: #333; }
-
-    </style>
 </head>
 <body>
 	<div id="center"><div id="fig">
@@ -90,7 +63,7 @@ var re = "",
     nodes = pv.dom(earth_ages).root("earth_ages").nodes();
 
 var vis = new pv.Panel()
-    .width(1000)
+    .width(560)
     .height(800)
 	.right(30)
 	.bottom(30);
@@ -125,7 +98,7 @@ function count() {
   var percent = bytes / total * 100;
   document.getElementById("title").innerHTML
       = classes + " classes; "
-      + bytes + " million years ("
+      + bytes.toFixed(2) + " million years ("
       + percent.toFixed(percent < 10) + "%).";
 }
 
@@ -141,17 +114,17 @@ function update(query) {
 count();
 
     </script>
-    <div id="footer">
-      <label for="search">search: </label>
-      <input type="text" id="search" onkeyup="update(this.value)">
-    </div>
   </div>
   <div id="tree">
 	
   </div>
-  <div class="metadata">
-	
-  </div>
+	<div id="controls">
+		<div id="footer">
+	      <label for="search">search: </label>
+	      <input type="text" id="search" onkeyup="update(this.value)">
+	    </div>
+		<div class="metadata"></div>
+	</div>
 </div>
 	
 	
