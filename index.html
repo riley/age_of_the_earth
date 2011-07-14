@@ -34,7 +34,13 @@
 							dataType: 'json',
 							success: function(resp) {
 								console.log(resp[0]);
-								$('.metadata').find('p').remove().end().find('h3').after(resp[0].description);
+								$('.metadata')
+									.find('p')
+									.remove()
+									.end()
+									.find('h3')
+									//.after('<a href='++'>')
+									.after(resp[0].description);
 								$('ul li:nth-child(even)').addClass('highlight');
 							},
 							error: function(err) {
@@ -50,8 +56,9 @@
 	</script>
 </head>
 <body>
-	<div id="center"><div id="fig">
-    <div id="title"></div>
+	<div id="container">
+		<div id="fig">
+    		<div id="title"></div>
 <script type="text/javascript+protovis">
 
 function title(d) {
@@ -63,23 +70,24 @@ var re = "",
     nodes = pv.dom(earth_ages).root("earth_ages").nodes();
 
 var vis = new pv.Panel()
-    .width(560)
-    .height(800)
+    .width(700)
+    .height(435)
 	.right(30)
 	.bottom(30);
 
 var treemap = vis.add(pv.Layout.Treemap)
+	.order('descending')
     .nodes(nodes)
     .round(true);
 
 treemap.leaf.add(pv.Panel)
-    .fillStyle(function(d) color(d).alpha(title(d).match(re) ? 1 : .2))
-    .strokeStyle("#fff")
-    .lineWidth(1)
+    .fillStyle(function(d) color(d).alpha(title(d).match(re) ? 1 : .5))
+    //.strokeStyle("#fff")
+    //.lineWidth(1)
     .antialias(false);
 
-treemap.label.add(pv.Label)
-    .textStyle(function(d) pv.rgb(0, 0, 0, title(d).match(re) ? 1 : .2));
+//treemap.label.add(pv.Label)
+//    .textStyle(function(d) pv.rgb(0, 0, 0, title(d).match(re) ? 1 : .2));
 
 vis.render();
 
@@ -114,19 +122,15 @@ function update(query) {
 count();
 
     </script>
-  </div>
-  <div id="tree">
-	
-  </div>
-	<div id="controls">
-		<div id="footer">
-	      <label for="search">search: </label>
-	      <input type="text" id="search" onkeyup="update(this.value)">
-	    </div>
-		<div class="metadata"></div>
-	</div>
-</div>
-	
-	
+		</div><!-- end #fig -->
+		<div id="tree"><!-- dynatree container --></div>
+		<div id="controls">
+			<div id="footer">
+		      <label for="search">search: </label>
+		      <input type="text" id="search" onkeyup="update(this.value)">
+		    </div>
+			<div class="metadata"></div>
+		</div><!-- end #controls -->
+	</div><!-- end #container -->
 </body>
 </html>

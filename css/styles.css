@@ -48,7 +48,10 @@ table {
 }
 
 /*************** end css reset ********************/
-body { font: normal 1em Helvetica, Verdana, Arial, sans-serif;}
+body { 
+	font: normal 1em Helvetica, Verdana, Arial, sans-serif;
+	background: #000 url(../images/starfield.jpeg);
+}
 
 h3 { 
 	text-transform: uppercase; 
@@ -56,19 +59,30 @@ h3 {
 	margin: 0;
 }
 
+#container { 
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
+}
+
 .highlight { background: #fff; }
 
 #fig {
 	margin: 15px;
-  width: 560px;
-  float: left;
+	width: 700px;
+	float: left;
 }
 
 #tree { float: left; margin: 30px 0 0 0; }
 
 #footer {
-  font: 24pt helvetica neue;
-  color: #666;
+	font: normal 24pt "helvetica neue", helvetica, sans-serif;
+	color: #666;
+	padding-left: 10px;
+	background: #fff;
+	position: relative;
+	top: -430px;
+	width: 685px;
 }
 
 input {
@@ -79,11 +93,24 @@ input {
 }
 
 #title {
-  float: right;
-  text-align: right;
+	float: right;
+	text-align: right;
+	color: white;
 }
 #controls { float: left; margin: 15px;}
-.metadata { display: none; width: 400px; background: #dedede; padding: 10px; }
+.metadata { 
+	display: none; 
+	width: 675px;
+	background: #dedede;
+	background: rgba(239, 239, 239, .8);
+	-moz-border-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	padding: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	top: -430px;
+}
 .metadata p { color: #333; font-size: .8em; line-height: 1.2em; }
 .metadata ul {
 	font-size: .8em;
