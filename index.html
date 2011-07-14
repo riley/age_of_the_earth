@@ -16,6 +16,23 @@
 	<script src="ages.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 	$(function(){
+		
+		function map(v, a, b, x, y) {
+			return (v == a) ? x : (v - a) * (y - x) / (b - a) + x;
+		}
+		/*
+		(function(node) { 
+			for (var list in node) {
+				if (typeof node[list] === 'object') {
+					arguments.callee(node[list]);
+				} else {
+					console.log(list + ': ' + node[list]);
+				}
+			}
+		})(earth_ages);*/
+		
+		$('input#search').val('');
+		
 		$.ajax({
 			url: 'ages_dyna.html',
 			success: function (resp) {
@@ -26,21 +43,40 @@
 					},
 					onClick: function (node, event) {
 						$('input#search').val(node.data.title);
-						$('.metadata').css('display', 'block').empty().append('<h3>'+node.data.title+'</h3><p>loading!</p>');
+						$('.metadata')
+							.css('display', 'block')
+							.empty()
+							.append('<h3>'+node.data.title+'</h3><p>loading!</p>');
 						update(node.data.title);
 						$.ajax({
 							url: 'get_wiki.php?era='+node.data.title,
 							//url: "http://en.wikipedia.org/w/api.php?action=parse&page="+node.data.key+"&format=json",
 							dataType: 'json',
 							success: function(resp) {
-								console.log(resp[0]);
+								var barWidth = map(resp[0].mya, 0, 4617, 0, 960);
+								//$('.bar').css('width', barWidth + 'px');
+								$('.bar').animate({
+									width: barWidth + 'px'
+								}, 500);
+								var label = $('#timeline p');
+								label.animate({
+									right:  (barWidth > 480) ? (barWidth - label.width()) + 'px' : barWidth + 'px'
+								}, 500, function() {
+									label.html(resp[0].mya + ' million years ago');
+								});
+									//.css('right',)
+									
+								(barWidth > 480) ? $('#timeline p').removeClass('iconRight').addClass('iconLeft') : $('#timeline p').removeClass('iconLeft').addClass('iconRight');
+								console.log($('#timeline p'));
+								
 								$('.metadata')
 									.find('p')
 									.remove()
 									.end()
 									.find('h3')
-									//.after('<a href='++'>')
-									.after(resp[0].description);
+									.html(resp[0].name + '<span> - ' + resp[0].mya + ' million years ago</span>')
+									.after(resp[0].description)
+									.after('<a class="external" href='+resp[0].url+'>'+resp[0].url+'</a>');
 								$('ul li:nth-child(even)').addClass('highlight');
 							},
 							error: function(err) {
@@ -57,6 +93,10 @@
 </head>
 <body>
 	<div id="container">
+	<div id="timeline">
+		<div class="bar"></div>
+		<p class="iconLeft">4617 million years ago</p>
+	</div>
 		<div id="fig">
     		<div id="title"></div>
 <script type="text/javascript+protovis">
