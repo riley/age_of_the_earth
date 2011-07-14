@@ -20,16 +20,26 @@
 		function map(v, a, b, x, y) {
 			return (v == a) ? x : (v - a) * (y - x) / (b - a) + x;
 		}
-		/*
+		
+		// this needs to be done in a less hacky way.
+		var eons = [
+			{ ago: 0, dur: 65.5, color: '#ee7038' },
+			{ ago: 65.5, dur: 185.5, color: '#fbb355' },
+			{ ago: 251, dur: 291, color: '#ffffc8' },
+			{ ago: 542, dur: 4089, color: '#b4b48d' }
+		];
+		
 		(function(node) { 
+			var counter = 0;
 			for (var list in node) {
-				if (typeof node[list] === 'object') {
-					arguments.callee(node[list]);
-				} else {
-					console.log(list + ': ' + node[list]);
-				}
+				//if (typeof node[list] === 'object') {
+					//arguments.callee(node[list]);
+				//} else {
+					//console.log(list + ': ' + node[list]);
+					$('.bar').before('<div style="background: '+eons[counter].color+'; position: absolute; right: ' + map(eons[counter].ago, 0, 4631, 0, 960) + 'px; width: '+map(eons[counter++].dur, 0, 4631, 0, 960)+'px; height: 20px;"></div>');
+				//}
 			}
-		})(earth_ages);*/
+		})(earth_ages);
 		
 		$('input#search').val('');
 		
@@ -53,7 +63,7 @@
 							//url: "http://en.wikipedia.org/w/api.php?action=parse&page="+node.data.key+"&format=json",
 							dataType: 'json',
 							success: function(resp) {
-								var barWidth = map(resp[0].mya, 0, 4617, 0, 960);
+								var barWidth = map(resp[0].mya, 0, 4631, 0, 960);
 								//$('.bar').css('width', barWidth + 'px');
 								$('.bar').animate({
 									width: barWidth + 'px'
@@ -67,14 +77,13 @@
 									//.css('right',)
 									
 								(barWidth > 480) ? $('#timeline p').removeClass('iconRight').addClass('iconLeft') : $('#timeline p').removeClass('iconLeft').addClass('iconRight');
-								console.log($('#timeline p'));
 								
 								$('.metadata')
 									.find('p')
 									.remove()
 									.end()
 									.find('h3')
-									.html(resp[0].name + '<span> - ' + resp[0].mya + ' million years ago</span>')
+									.html(resp[0].name + '<span> ~ ' + resp[0].mya + ' million years ago</span>')
 									.after(resp[0].description)
 									.after('<a class="external" href='+resp[0].url+'>'+resp[0].url+'</a>');
 								$('ul li:nth-child(even)').addClass('highlight');
@@ -95,7 +104,7 @@
 	<div id="container">
 	<div id="timeline">
 		<div class="bar"></div>
-		<p class="iconLeft">4617 million years ago</p>
+		<p class="iconLeft">4631 million years ago</p>
 	</div>
 		<div id="fig">
     		<div id="title"></div>
@@ -121,7 +130,7 @@ var treemap = vis.add(pv.Layout.Treemap)
     .round(true);
 
 treemap.leaf.add(pv.Panel)
-    .fillStyle(function(d) color(d).alpha(title(d).match(re) ? 1 : .5))
+    .fillStyle(function(d) color(d).alpha(title(d).match(re) ? 1 : .7))
     //.strokeStyle("#fff")
     //.lineWidth(1)
     .antialias(false);

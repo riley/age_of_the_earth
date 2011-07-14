@@ -84,12 +84,14 @@ h3 span {
 	position: relative;
 }
 #timeline .bar {
-	background: red;
+	background: #a94d2d;
 	width: 960px;
-	height: 15px;
-	float: right;
+	height: 5px;
+	right: 0;
+	position: absolute;
+	top: 20px;
 }
-#timeline p { font-size: .7em; position: absolute; top: 20px;}
+#timeline p { font-size: .7em; position: absolute; top: 30px;}
 #timeline p.iconLeft {
 	background: url(../images/chevron-small.png) no-repeat 0 -3px;
 	padding-left: 15px;
