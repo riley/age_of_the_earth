@@ -139,13 +139,20 @@ input {
 	display: none; 
 	width: 710px;
 	background: #b4b48d;
+	background: #fbb355; /* Old browsers */
+	background: -moz-linear-gradient(top, #fbb355 0%, #ee7038 100%); /* 	FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbb355), color-stop(100%,#ee7038)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fbb355 0%,#ee7038 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fbb355 0%,#ee7038 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #fbb355 0%,#ee7038 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb355', endColorstr='#ee7038',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #fbb355 0%,#ee7038 100%); /* W3C */
 	-moz-border-radius: 8px;
 	-webkit-border-bottom-left-radius: 8px;
 	-webkit-border-bottom-right-radius: 8px;
 	padding: 10px;
 }
 .metadata p { 
-	color: #333; 
 	font-size: .8em; 
 	line-height: 1.2em;
 	margin-top: 15px;

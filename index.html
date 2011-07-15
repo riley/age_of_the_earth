@@ -131,7 +131,7 @@ var treemap = vis.add(pv.Layout.Treemap)
     .round(true);
 
 treemap.leaf.add(pv.Panel)
-    .fillStyle(function(d) color(d).alpha(title(d).match(re) ? 1 : .5))
+    .fillStyle(function(d) color(d).alpha(title(d).match(re) ? 1 : .3))
     //.strokeStyle("#fff")
     //.lineWidth(1)
     .antialias(false);
@@ -155,7 +155,7 @@ function count() {
   }
   var percent = bytes / total * 100;
   document.getElementById("title").innerHTML
-      = classes + " classes; "
+      = classes + " eras; "
       + bytes.toFixed(2) + " million years ("
       + percent.toFixed(percent < 10) + "%).";
 }
