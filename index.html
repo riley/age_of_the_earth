@@ -106,6 +106,7 @@
 		<div class="bar"></div>
 		<p class="iconLeft">4631 million years ago</p>
 	</div>
+		
 		<div id="fig">
     		<div id="title"></div>
 <script type="text/javascript+protovis">
@@ -119,9 +120,9 @@ var re = "",
     nodes = pv.dom(earth_ages).root("earth_ages").nodes();
 
 var vis = new pv.Panel()
-    .width(700)
+    .width(735)
     .height(435)
-	.right(30)
+	//.right(30)
 	.bottom(30);
 
 var treemap = vis.add(pv.Layout.Treemap)
@@ -130,7 +131,7 @@ var treemap = vis.add(pv.Layout.Treemap)
     .round(true);
 
 treemap.leaf.add(pv.Panel)
-    .fillStyle(function(d) color(d).alpha(title(d).match(re) ? 1 : .7))
+    .fillStyle(function(d) color(d).alpha(title(d).match(re) ? 1 : .5))
     //.strokeStyle("#fff")
     //.lineWidth(1)
     .antialias(false);
