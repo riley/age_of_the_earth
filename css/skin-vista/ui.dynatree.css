@@ -453,3 +453,14 @@ span.dynatree-drop-target.dynatree-drop-after a
 	background-position: bottom;
 	background-image: url("drop_append.gif");*/
 }
+
+/***** Riley's custom styles *************************************/
+
+span.interesting a {
+	color: red;
+	font-weight: bold;
+}
+
+span.interesting span.dynatree-icon {
+	background: url(information-button.png) no-repeat 0 0;
+}

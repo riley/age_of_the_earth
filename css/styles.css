@@ -50,7 +50,7 @@ table {
 /*************** end css reset ********************/
 html, body { 
 	font: normal 1em Helvetica, Verdana, Arial, sans-serif;
-	background: #000 url(../images/starfield.jpeg);
+	background: #333;
 	height: 100%;
 	margin: 0 0 1px;
 }
@@ -67,12 +67,50 @@ h3 span {
 	font-size: .6em;
 }
 
-#container { 
+#wrapper {
 	width: 960px;
 	position: relative;
 	margin: 0 auto;
 	background: rgba(255, 255, 255, .9);
-	overflow: hidden;
+}
+
+#header {
+	
+}
+
+#main {
+	width: 760px;
+	float: left;
+}
+
+#main svg {
+	margin: 15px;
+}
+
+#sidebar {
+	width: 200px;
+	float: right;
+}
+
+#foot {
+	clear: both;
+	background: url(../images/starfield.jpeg);
+	height: 100px;
+}
+
+#foot p {
+	color: white;
+	float: right;
+	margin: 10px 100px 0 0;
+}
+
+#foot p a:link, #foot p a:visited {
+	color: #ee7038;
+}
+
+#foot p a:hover, #foot p a:active {
+	color: #fbb355;
+	text-decoration: none;
 }
 
 .highlight { background: #fff; }
@@ -107,19 +145,16 @@ h3 span {
 	margin: 15px;
 	width: 735px;
 	float: left;
+	border: 1px solid red;
 }
 
-#tree { position: absolute; right: 0; }
+#tree { position: relative; right: 0; }
 
-#footer {
+#query {
 	font: normal 24pt "helvetica neue", helvetica, sans-serif;
 	color: #666;
 	padding-left: 10px;
 	background: #fff;
-	position: absolute;
-	top: 530px;
-	left: 15px;
-	width: 720px;
 }
 
 input {
@@ -133,11 +168,13 @@ input {
 	float: right;
 	text-align: right;
 	color: #ee7038;
+	margin: 10px 10px 0 0;
 }
-#controls { float: left; margin: 15px;}
+
 .metadata { 
 	display: none; 
-	width: 710px;
+	width: 700px;
+	margin: 15px;
 	background: #b4b48d;
 	background: #fbb355; /* Old browsers */
 	background: -moz-linear-gradient(top, #fbb355 0%, #ee7038 100%); /* 	FF3.6+ */
