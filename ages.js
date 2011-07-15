@@ -202,6 +202,6 @@ var earth_ages = {
 			paleoarchean: 400,
 			eoarchean: 250
 		},
-		hadean: 767
+		hadean: 781
 	}
 };
