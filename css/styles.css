@@ -160,10 +160,24 @@ h3 span {
 }
 
 input {
-  font: 24pt helvetica neue;
+  font: normal 24pt "helvetica neue", helvetica, sans-serif;
   background: none;
-  border: none;
+  border: 1px solid #ddd;
   outline: 0;
+	width: 500px;
+}
+
+.reset-search:link, .reset-search:visited {
+	background: url(../images/arrow-circle-315.png) no-repeat top right;
+	font: normal 10pt "helvetica neue", helvetica, sans-serif;
+	padding-right: 18px;
+	float: right;
+	color: #ee7038;
+	margin: 15px;
+}
+.reset-search:hover, .reset-search:active {
+	text-decoration: none;
+	color: #b4b48d;
 }
 
 #title {

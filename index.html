@@ -96,6 +96,11 @@
 				});
 			}
 		});
+		$('.reset-search').click(function() {
+			$('input#search').val('');
+			update('');
+			$('.metadata').css('display', 'none');
+		});
     });
 
 	</script>
@@ -176,6 +181,7 @@
 					<div id="query">
 				      <label for="search">search: </label>
 				      <input type="text" id="search" onkeyup="update(this.value)">
+						<a href="#" class="reset-search">clear search</a>
 				    </div>
 					<div class="metadata"></div>
 				</div><!-- end #controls -->
